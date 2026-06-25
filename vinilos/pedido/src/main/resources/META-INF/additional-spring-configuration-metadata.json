@@ -1,0 +1,9 @@
+{
+  "properties": [
+
+    {
+      "name": "vinilos1.url",
+      "type": "java.lang.String",
+      "description": "Description for vinilos1.url."
+  }
+] }

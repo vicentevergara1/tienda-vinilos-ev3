@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "vinilos1.url",
+      "type": "java.lang.String",
+      "description": "Description for vinilos1.url."
+    },
+    {
+      "name": "vinilos4.url",
+      "type": "java.lang.String",
+      "description": "Description for vinilos4.url."
+    }
+  ] }
