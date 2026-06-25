@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: api-gateway
+  profiles:
+    active: dev
   cloud:
     gateway:
       globalcors:
@@ -45,6 +47,3 @@ spring:
 logging:
   level:
     org.springframework.cloud.gateway: INFO
-
-    profiles:
-      active: dev
