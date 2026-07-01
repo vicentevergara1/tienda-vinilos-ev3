@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: vinilos1
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_cliente
+    username: root
+    password: 
+  
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
