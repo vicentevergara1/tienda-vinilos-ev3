@@ -21,6 +21,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
-# Configuración de rutas / servicios externos
+# Rutas / servicios externos
 vinilos1:
   url: http://localhost:8081/api/clientes
