@@ -1,0 +1,29 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: vinilos5
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_envios
+    username: root
+    password: 
+  
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+# Rutas / servicios externos
+vinilos4:
+  url: http://localhost:8084/api/pedidos
+
+vinilos1:
+  url: http://localhost:8081/api/clientes
