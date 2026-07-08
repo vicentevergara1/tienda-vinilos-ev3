@@ -9,18 +9,21 @@ Sistema distribuido para la gestion de una tienda de vinilos online, implementad
 * Jaime Lopez
 * Roselin Verdu
 
+
+- eureka (Puerto 8079)
+- api-gateway (Puerto 8080)
+
 ## Microservicios Implementados
-1. api-gateway (Puerto 8080)
-2. cliente-service (Puerto 8081)
-3. producto-service (Puerto 8082)
-4. pedido-service (Puerto 8083)
-5. pago-service (Puerto 8084)
-6. envio-service (Puerto 8085)
-7. inventario-service (Puerto 8086)
-8. catalogo-service (Puerto 8087)
-9. carrito-service (Puerto 8088)
-10. resena-service (Puerto 8089)
-11. notificacion-service (Puerto 8090)
+1. cliente-service (Puerto 8081)
+2. producto-service (Puerto 8082)
+3. pedido-service (Puerto 8083)
+4. Pago-service (Puerto 8084)
+5. envio-service (Puerto 8085)
+6. inventario-service (Puerto 8086)
+7. catalogo-service (Puerto 8087)
+8. carrito-service (Puerto 8088)
+9. resena-service (Puerto 8089)
+10. notificacion-service (Puerto 8090)
 
 ## Rutas Principales del API Gateway
 * Clientes: http://localhost:8080/api/clientes/**
