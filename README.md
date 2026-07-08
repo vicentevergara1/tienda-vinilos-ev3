@@ -14,7 +14,7 @@ Sistema distribuido para la gestion de una tienda de vinilos online, implementad
 - api-gateway (Puerto 8080)
 
 ## Microservicios Implementados
-1. cliente-service (Puerto 8081)
+1. cliente-service (Puerto 8081) Vinilos1
 2. producto-service (Puerto 8082)
 3. pedido-service (Puerto 8083)
 4. Pago-service (Puerto 8084)
